@@ -13,7 +13,7 @@ def main():
     parser.add_argument('model_file', type=str, help='path/to/file/yolo.pt')
     parser.add_argument('output_directory', type=str, help='output directory name')
     parser.add_argument('site_name', type=str, help='site name')
-    parser.add_argument('--conf_threshold', type=float, default=0.8, help='positional argument to determine minimum threshold for confirmed inference')
+    parser.add_argument('--conf_threshold', type=float, default=0.65, help='positional argument to determine minimum threshold for confirmed inference')
     args = parser.parse_args()
 
     ###Load neural network file and pull class list###
@@ -85,7 +85,7 @@ def main():
                 shutil.copy(filename, os.path.join(outputDir, 'forReview'))
         else:
             continue
-    print('Images processed, see output directory for classified images')
+    print('Images successfully processed, see output directory for classified images')
 
 
 if __name__=='__main__':
