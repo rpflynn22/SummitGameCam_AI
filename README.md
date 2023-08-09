@@ -1,9 +1,11 @@
 # Summit Lake Game Camera AI Program
 
-Author: Keane Flynn
-Organization: Summit Lake Paiute Tribe
-Date: 08/09/2023
-Contact: keaneflynn@nevada.unr.edu
+Author: Keane Flynn\
+Organization: Summit Lake Paiute Tribe\
+Date: 08/09/2023\
+Contact: keaneflynn@nevada.unr.edu\
+
+![Mountain lion cubs seen at one of our trail cameras](https://github.com/SummitLakeNRD/SummitGameCam_AI/blob/main/test_images/mountainLion.jpg)
 
 ## Description
 This program was designed to leverage Ultralytics's YOLOv8 image classification to expedite SLPT's game camera image processing. It is acknowledged that it
