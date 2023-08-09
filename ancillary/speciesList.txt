@@ -1,0 +1,14 @@
+bighornSheep
+bobcat
+chukar
+cow
+coyote
+grayFox
+horse
+jackRabbit
+mountainLion
+muleDeer
+pronghorn
+redTailedHawk
+sageGrouse
+
