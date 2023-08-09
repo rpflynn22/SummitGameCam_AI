@@ -15,7 +15,7 @@ image data it has gathered from the game cameras. For any questions about the pr
 
 ## Hardware
 This program currently is operating specifically to Browning trail cameras. This is due to the exif data indexing for date/time, can work for any images if 
-this data is not important to you or you adjust it for your specific use case (see [lines of code](https://github.com/SummitLakeNRD/SummitGameCam_AI/blob/9b79a89aae1f57f8c91cb52f7e959ddc2156e757/main.py#L57-L60)). 
+this data is not important to you or you adjust it for your specific use case (see these [lines of code](https://github.com/SummitLakeNRD/SummitGameCam_AI/blob/9b79a89aae1f57f8c91cb52f7e959ddc2156e757/main.py#L57-L60)). 
 To expedite processing images, it is best to run this program on a computer with an Nvidia chipset with CUDA & CUDNN. Then install PyTorch and Ultralytics
 will allow you to reduce processing latency. This is not necessary, however, as it is built in with an option to run on your CPU if no CUDA enabled GPU is
 detected upon program launch.
