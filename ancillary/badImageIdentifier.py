@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 import os
-from PIL import Image
+import PIL.Image
 
 def main():
     parser = ArgumentParser(description='tests images for corrupt ones')
@@ -10,7 +10,7 @@ def main():
     for filename in os.listdir(args.image_directory):
         if filename.__contains__('.jpg') or filename.__contains__('.jpeg') or filename.__contains__('.png'):
             try:
-                img = Image.open(args.image_directory+filename)  # open the image file
+                img = PIL.Image.open(args.image_directory+filename)  # open the image file
                 img.verify()
             except:
                 print(filename)
