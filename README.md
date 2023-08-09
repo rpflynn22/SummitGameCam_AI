@@ -25,16 +25,25 @@ I am going to explain this in terms a biologist can understand, so my apologies 
 World" Program. You will need to [install python](https://www.python.org/downloads/) and pip which should come with the download linked here and git which
 can be [downloaded here for windows](https://git-scm.com/download/win). Open a terminal (terminal, powershell, cmd, etc) and [migrate](https://adamtheautomator.com/powershell-change-directory/) to your desktop directory. 
 From here, click the green 'code' button at the top of this page and copy the HTTPS code link provided. Then issue the following command in your terminal:
-`git clone https://github.com/SummitLakeNRD/SummitGameCam_AI.git`
+```
+git clone https://github.com/SummitLakeNRD/SummitGameCam_AI.git
+```
 Once completed, you will change directories into the SummitGameCam_AI directory you just created and issue the following command:
-`pip install -r requirements`
+```
+pip install -r requirements
+```
+
 This will install all of the necessary prerequisites for you and you will be ready to process images.
 
 # Running the Program
 To obtain the positional and conditional arguments for the python program, issue the following command:
-`python main.py -h`
+```
+python main.py -h
+```
 To run a sample code from this repository issue the following command:
-`python main.py test_images/ yolov8/gameCamModel-yolov8l-cls.pt outputFiles SampleSite --conf_threshold 0.65`
+```
+python main.py test_images/ yolov8/gameCamModel-yolov8l-cls.pt outputFiles SampleSite --conf_threshold 0.65
+```
 
 # Input and Output
 ### Inputs
