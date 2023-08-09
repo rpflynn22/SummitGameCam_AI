@@ -23,8 +23,8 @@ def main():
     predConf = probs.top1conf.tolist()
     predClass = probs.top1
 
-    print(predConf)
-    print(predClass)
+    #print(predConf)
+    print(classes[predClass], ": ", predConf)
 
 
     cv2_image = cv2.imread(image)
